@@ -1,0 +1,63 @@
+*, body, html {
+    margin: 0;
+    padding: 0px 50px;
+    font: 1em sans-serif;
+
+} 
+
+
+.menu {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+}
+
+.menu #logo {
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.menu > ul {
+      margin: 0;
+      padding: 0;
+      float: left;
+      list-style-type: none;
+}
+
+.menu > ul > li {
+    float: left;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #ff0055;
+}
+
+body {
+    background-image: url(./diego-ph-BCuxVP5WEsU-unsplash.jpg);
+}
+
+.headerpragraph {
+    font-size: 20px;
+}
+
+.header2 {
+    font-size: 35px;
+}
+
+.download-link {
+    font-size: 40px;
+    text-align: center;
+}
